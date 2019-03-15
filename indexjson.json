@@ -1,0 +1,16 @@
+{
+  "news": [
+    {
+      "item": "Courses Taken in computer science",
+      "list": [ "Cisc 131", "Cisc 230", "Cisc 231" ]
+    },
+    {
+      "item": "Current courses",
+      "list": [ "Cisc 340", "Cisc 375", "Stats 360" ]
+    },
+    {
+      "item": "Internships",
+      "list": [ "Avanade" ]
+    }
+  ]
+}

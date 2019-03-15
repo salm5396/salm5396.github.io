@@ -1,0 +1,24 @@
+{
+  "work": [
+    {
+      "item": "Software Development Intern at Collins Aerospace",
+      "content": [ "Answer phone calls and diagnose issues regarding personal or UST owned computers, Ipads, and email accounts. Assist person to person with the students and faculty members with issues pertaining to any sort of technology. Log and maintain ÅgTicketsÅh involving a database with information on each issue and what was done to resolve the issue." ]
+    },
+    {
+      "item": "Tech Desk Student Worker at University of St. Thomas",
+      "content": [ "Answer phone calls and diagnose issues regarding personal or UST owned computers, Ipads, and email accounts.\tAssist person to person with the students and faculty members with issues pertaining to any sort of technology. Log and maintain ÅgTicketsÅh involving a database with information on each issue and what was done to resolve the issue" ]
+    },
+    {
+      "item": "Menards Wallcovering Worker",
+      "content": [ "Log and maintain inventory information in the computer system. Maintain a stocked sales floor. Help guests choose the correct paint and products needed for the job that they are performing." ]
+    },
+    {
+      "item": "Software Development Intern at Avanade",
+      "content": [ "Developed WPF Views for the new release of the Avanade billing solution called Open-CIS.\tWorked primarily with XAML and C#. Completed tasks that would directly affect the application that the company was selling. Migrated legacy C++ code and Visual Basic windows to new C# code to efficiently eliminate legacy code objects and combine in the new version." ]
+    }
+  ],
+
+  "skills": ["C#", "Java", "Visual basic", "Visual studio", "MIPS Assembly", "C", "C++","Javascript","HTML","CSS"]
+    
+  
+}

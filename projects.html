@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Project page</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="projects.css"/>
+	<script src="projectjs.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div id="header_content">
+			<div class="dropdown">
+				<button class="dropbtn">Menu</button>
+				<div class="dropdown-content">
+					<a href="index.html">Home</a>
+					<a href="projects.html">Projects</a>
+					<a href="Resume.html">Resume</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="content">
+		<table>
+			<tr>
+				<td>
+					<div>
+						<img src="mobyDick.jpg" alt="moby dick" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" />
+					</div>
+					<div class="table_link">
+						<h3>Frequency Counter</h3>
+					</div>
+				</td>
+				<td>
+					<div>
+						<img src="binary.jpg" alt="binary code" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" />
+					</div>
+					<div class="table_link">
+						<h3>Assembler</h3>
+					</div>
+
+				</td>
+				<td>
+					<div>
+						<img src="TreeTraversal.jpg" alt="Tree Traversal" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" />
+					</div>
+					<div class="table_link">
+						<h3>File Traverser</h3>
+					</div>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div>
+						<img src="computerSimulator.png" alt="Computer Simulator" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" />
+					</div>
+					<div class="table_link">
+						<h3>Processor Simulator</h3>
+					</div>
+
+				</td>
+				<td>
+					<div>
+						<img src="musicnote.png" alt="music note" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" />
+					</div>
+					<div class="table_link">
+						<h3>File Changer</h3>
+					</div>
+
+				</td>
+				<td>
+					<div>
+						<img src="taxes.png" alt="taxes" onclick="openModal();currentSlide(6)" class="hover-shadow cursor" />
+					</div>
+					<div class="table_link">
+						<h3>Tax Table</h3>
+					</div>
+
+				</td>
+
+			</tr>
+		</table>
+	</div>
+
+	<!--based on w3school lightbox technique-->
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+		<div class="next" onclick="plusSlides(1)">&#10095;</div>
+		<div class="modal-content">
+			<div class="mySlides">
+				<div class="numbertext">1 / 8</div>
+				<img src="mobyDick.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">2 / 8</div>
+				<img src="binary.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">3 / 8</div>
+				<img src="TreeTraversal.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">4 / 8</div>
+				<img src="computerSimulator.png" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">5 / 8</div>
+				<img src="musicnote.png" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">6 / 8</div>
+				<img src="taxes.png" style="width:100%">
+			</div>
+			<div class="caption-container">
+				<p id="title"></p>
+				<p id="caption"></p>
+			</div>
+
+
+			<div class="column">
+				<img class="d cursor" src="mobyDick.jpg" style="width:100%" onclick="currentSlide(1)" alt="Created a program to count the frequency of words in a given text file using Java" title="Frequency Counter:">
+			</div>
+			<div class="column">
+				<img class="d cursor" src="binary.jpg" style="width:100%" onclick="currentSlide(2)" alt="Create a program to convert Assembly code into machine code using the programming language C" title="Assembler:">
+			</div>
+			<div class="column">
+				<img class="d cursor" src="TreeTraversal.jpg" style="width:100%" onclick="currentSlide(3)" alt="Made a program to traverse through a file directory system using a tree traversal algorithm" title="File traverser:">
+			</div>
+			<div class="column">
+				<img class="d cursor" src="computerSimulator.png" style="width:100%" onclick="currentSlide(4)" alt="Designed a computer processor simulator to simulate the running of a computer processor" title="Processor Simulator:">
+			</div>
+			<div class="column">
+				<img class="d cursor" src="musicnote.png" style="width:100%" onclick="currentSlide(5)" alt="implemented a program which allows a user to enter a file directory and choose what they want to eliminate from all child file names" title="File Changer:">
+			</div>
+			<div class="column">
+				<img class="d cursor" src="taxes.png" style="width:100%" onclick="currentSlide(6)" alt="implemented a program which allowed a user to enter in their income for the year to see what their taxes will be" title="Tax Table:">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

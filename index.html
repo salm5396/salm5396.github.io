@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" />
+	<script src="indexjs.js"></script>
+</head>
+<body onload="start()" id="body">
+	<div id="header" class="head">
+		<div id="header_content">
+			<div class="dropdown">
+				<button class="dropbtn">Menu</button>
+				<div class="dropdown-content">
+					<a href="index.html">Home</a>
+					<a href="projects.html">Projects</a>
+					<a href="Resume.html">Resume</a>
+				</div>
+			</div>
+			<select name="to" id="lang">
+				<option value="az">Аzerbaijan</option>
+				<option value="sq">Albanian</option>
+				<option value="am">Amharic</option>
+				<option value="en">English</option>
+				<option value="ar">Arabic</option>
+				<option value="hy">Armenian</option>
+				<option value="af">Afrikaans</option>
+				<option value="eu">Basque</option>
+				<option value="ba">Bashkir</option>
+				<option value="be">Belarusian</option>
+				<option value="bn">Bengali</option>
+				<option value="my">Burmese</option>
+				<option value="bg">Bulgarian</option>
+				<option value="bs">Bosnian</option>
+				<option value="cy">Welsh</option>
+				<option value="hu">Hungarian</option>
+				<option value="vi">Vietnamese</option>
+				<option value="ht">Haitian</option>
+				<option value="gl">Galician</option>
+				<option value="nl">Dutch</option>
+				<option value="mrj">Hill Mari</option>
+				<option value="el">Greek</option>
+				<option value="ka">Georgian</option>
+				<option value="gu">Gujarati</option>
+				<option value="da">Danish</option>
+				<option value="he">Hebrew</option>
+				<option value="yi">Yiddish</option>
+				<option value="id">Indonesian</option>
+				<option value="ga">Irish</option>
+				<option value="it">Italian</option>
+				<option value="es">Spanish</option>
+				<option value="kk">Kazakh</option>
+				<option value="kn">Kannada</option>
+				<option value="ca">Catalan</option>
+				<option value="ky">Kyrgyz</option>
+				<option value="zh">Chinese</option>
+				<option value="ko">Korean</option>
+				<option value="xh">Xhosa</option>
+				<option value="km">Khmer</option>
+				<option value="lo">Laotian</option>
+				<option value="la">Latin</option>
+				<option value="lv">Latvian</option>
+				<option value="lt">Lithuanian</option>
+				<option value="lb">Luxembourgish</option>
+				<option value="mg">Malagasy</option>
+				<option value="ms">Malay</option>
+				<option value="ml">Malayalam</option>
+				<option value="mt">Maltese</option>
+				<option value="mk">Macedonian</option>
+				<option value="mi">Maori</option>
+				<option value="mr">Marathi</option>
+				<option value="mhr">Mari</option>
+				<option value="mn">Mongolian</option>
+				<option value="de">German</option>
+				<option value="ne">Nepali</option>
+				<option value="no">Norwegian</option>
+				<option value="pa">Punjabi</option>
+				<option value="pap">Papiamento</option>
+				<option value="fa">Persian</option>
+				<option value="pl">Polish</option>
+				<option value="pt">Portuguese</option>
+				<option value="ro">Romanian</option>
+				<option value="ru">Russian</option>
+				<option value="ceb">Cebuano</option>
+				<option value="sr">Serbian</option>
+				<option value="si">Sinhala</option>
+				<option value="sk">Slovakian</option>
+				<option value="sl">Slovenian</option>
+				<option value="sw">Swahili</option>
+				<option value="su">Sudanese</option>
+				<option value="tg">Tajik</option>
+				<option value="th">Thai</option>
+				<option value="tl">Tagalog</option>
+				<option value="ta">Tamil</option>
+				<option value="tt">Tatar</option>
+				<option value="te">Telugu</option>
+				<option value="tr">Turkish</option>
+				<option value="udm">Udmurt</option>
+				<option value="uz">Uzbek</option>
+				<option value="uk">Ukrainian</option>
+				<option value="ur">Urdu</option>
+				<option value="fi">Finnish</option>
+				<option value="fr">French</option>
+				<option value="hi">Hindi</option>
+				<option value="hr">Croatian</option>
+				<option value="cs">Czech</option>
+				<option value="sv">Swedish</option>
+				<option value="gd">Scottish</option>
+				<option value="et">Estonain</option>
+				<option value="eo">Esperanto</option>
+				<option value="jv">Javanese</option>
+				<option value="ja">Japansese</option>
+			</select>
+			<button id="translate" onclick="startTranslation()">Translate</button>
+			<a href="https://translate.yandex.com/">powered by Yandex</a>
+		</div>
+	</div>
+	<img src="pic1.JPG" alt="Personal Photo" width="900" height="500" class="center" />
+	<h3 class="center" id="paragraphHeader">Personal Information</h3>
+	<p class="center" id="paragraph1">
+		I am currently a junior at the University of St. Thomas studying computer science. In the summer of 2016 I had an internship for a company called Avanade.
+		I was responsible for migrating legacy C++ code to C# as well as combining Visual Basic windows into more efficient "views" using the markup language XAML.
+		This upcoming summer I will be working for the company Collins Aerospace using Visual Basic to create windows for their Aerospace software. During the school
+		year I am a student worker at the Tech Desk and help troubleshoot problems pertaining to personal computers as well as faculty equipment. In my free time I enjoy
+		listening to records and playing piano as well as playing video games. Once I graduate I hope to work in either web development on the front end side of things or
+		in cyber security.
+	</p>
+	<p class="center" id="paragraph2">
+		I grew up in Apple Valley Minnesota, and went to highschool at Eastview in the same city. In highschool I was involved in many different musical activities including the top jazz band,
+		the musical, as well as the choir led musical where I played piano in all three.
+	</p>
+	<h2 class="center" id="newsHeader">Recent News Items</h2>
+	<p id="list"></p>
+
+</body>
+</html>
